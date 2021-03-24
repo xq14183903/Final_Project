@@ -1,6 +1,9 @@
 # An Automatic Nuclei Image Segmentation Based on Split-Attention U-Net  
 In this research, we propose a network called Split-Attention U-Net (SA-Unet) for further improving the performance of cell segmentation. SA-Unet is based on U-Net architecture and the original blocks used to down-sampling and up-sampling paths are replaced with Split-Attention blocks for capturing independent distinct attributes of cells.
 
+## Architecture
+![](Figure/architecture.jpg)
+
 ## Dataset
 A public microscopy image dataset from 2018 Data Science Bowl grand challenge is selected to train the SA-Unet model:
 >[https://www.kaggle.com/c/data-science-bowl-2018/data/](https://www.kaggle.com/c/data-science-bowl-2018/data)
