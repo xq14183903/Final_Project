@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from torch.autograd import Variable
 import torch.nn as nn
-import mydata
+import data_loading
 import albumentations as A
 from albumentations.pytorch import ToTensor
 from pytorch_lightning.metrics import Accuracy, Precision, Recall, F1
@@ -39,7 +39,7 @@ def get_train_transform():
         ToTensor()
         ])
 
-train_dataset = mydata.medical_img_data(TEST_PATH, transform=get_train_transform())
+train_dataset = data_loading.medical_img_data(TEST_PATH, transform=get_train_transform())
 model = torch.load('best_model.pth')
 acc_eval = Accuracy()
 pre_eval = Precision()
