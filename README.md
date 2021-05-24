@@ -11,8 +11,8 @@ A public microscopy image dataset from 2018 Data Science Bowl grand challenge is
 ## Evaluation Results
 |  Method  | Avg. Accuracy  | Avg. Precision  | Avg. Recall  | Avg. F1-Score | Avg. IoU |
 |  ----     |  ----  | ----  | ----  | ----  | ----  |
-| U-Net  | 0.9337 | **0.9522** | 0.8377 | 0.8853 | 0.8030 |
-| SA-Unet  | **0.9397** | 0.9267 | **0.9069** | **0.9133** | **0.8467** |
+| U-Net  | 0.9337±0.0706 | **0.9522±0.0835** | 0.8377±0.1098 | 0.8853±0.0809 | 0.8030±0.1196 |
+| SA-Unet  | **0.9397±0.0673** | 0.9267±0.0645 | **0.9069±0.0952** | **0.9133±0.0664** | **0.8467±0.1039** |
 
 
 ## Reference
